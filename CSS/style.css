@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500&family=Open+Sans:wght@300;400;600&display=swap');
+
+  *{
+    font-family: 'Open Sans', 'Jost';
+    color: #f9f9f9;
+   }
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+   }
+  body{
+    background: linear-gradient(to right, #e54343, #0c0b0b);
+  }
+  .for-picture{
+    background-image: url(../assets/img/background-image.png);
+    background-position: right top;
+    background-size: 306px 285px;
+    background-repeat: no-repeat;
+  }
+  @media screen and (max-width: 378px){
+    .for-picture{
+      background-image: url(../assets/img/background-image.png);
+      background-position: right top;
+      background-size: 45%;
+      background-repeat: no-repeat;
+    }
+  }
+  .logo-picture{
+    height: 80px;
+    width: 158px;
+    margin-top: 10px;
+  }
+  @media screen and (max-width: 378px){
+    .logo-picture{
+      height: 60px;
+      width: 119px;
+      margin-top: 10px;
+    }
+  }
+  .nav-link{
+    color: #f9f9f9;
+    font-family: 'Jost';
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .nav-link:hover{
+    color: #0c0b0b;
+  }
+  .section-welcome{
+    height: 525px;
+  }
+  @media screen and (max-width: 768px){
+    .section-welcome{
+      height: 225px;
+    }
+  }
+  .section-welcome_title{
+    color: #f9f9f9;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 200px;
+  }
+  @media screen and (max-width: 768px){
+    .section-welcome_title{
+      color: #f9f9f9;
+      font-family: 'Jost';
+      font-weight: 500;
+      font-size: 50px;
+      text-align: left;
+      padding-top: 30px;
+    }
+  }
+  @media screen and (max-width: 576px){
+    .section-welcome_title{
+      color: #f9f9f9;
+      font-family: 'Jost';
+      font-weight: 500;
+      font-size: 25px;
+      text-align: left;
+      padding-top: 30px;
+    }
+  }
+  @media screen and (max-width: 378px){
+    .section-welcome_title{
+      color: #f9f9f9;
+      font-family: 'Jost';
+      font-weight: 500;
+      font-size: 25px;
+      text-align: center;
+      padding-top: 100px;
+    }
+  }
+  .section-welcome_text{
+    color: #f9f9f9;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px){
+    .section-welcome_text{
+      color: #f9f9f9;
+      font-family: 'Open Sans';
+      font-weight: 300;
+      font-size: 25px;
+      text-align: left;
+    }
+  }
+  @media screen and (max-width: 576px){
+    .section-welcome_text{
+      color: #f9f9f9;
+      font-family: 'Open Sans';
+      font-weight: 300;
+      font-size: 18px;
+      text-align: left;
+    }
+  }
+  @media screen and (max-width: 378px){
+    .section-welcome_text{
+      color: #f9f9f9;
+      font-family: 'Open Sans';
+      font-weight: 300;
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+  .section-title{
+    color: #f9f9f9;
+    font-family: 'Jost';
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+  }
+  @media screen and (max-width: 378px){
+    .section-title{
+      color: #f9f9f9;
+      font-family: 'Jost';
+      font-weight: 600;
+      font-size: 25px;
+      text-align: center;
+    }
+  }
+  .main-section-text{
+    color: #f9f9f9;
+    font-family: 'Jost';
+    font-weight: 300;
+    font-size: 25px;
+    text-indent: 10%;
+    padding: 25px;
+    text-align: justify;
+  }
+  @media screen and (max-width: 378px){
+    .main-section-text{
+      color: #f9f9f9;
+      font-family: 'Jost';
+      font-weight: 300;
+      font-size: 18px;
+      text-indent: 10%;
+      padding: 15px;
+      text-align: justify;
+    }
+  }
+  .section-popular-sonngs_album-image{
+    height: 150px;
+    width: 150px;
+    border: 0px;
+    border-radius: 15px;
+  }
+  @media screen and (max-width: 378px){
+    .section-popular-sonngs_album-image{
+      height: 100px;
+      width: 100px;
+      border: 0px;
+      border-radius: 15px;
+    }
+  }
+  .section-popular-sonngs_like-icon{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 90%;
+    display: block;
+  }
+  @media screen and (max-width: 576px){
+    .section-popular-sonngs_like-icon{
+      height: 50px;
+      width: 50px;
+      position: absolute;
+      left: 80%;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 378px){
+    .section-popular-sonngs_like-icon{
+      height: 40px;
+      width: 40px;
+      position: absolute;
+      left: 80%;
+      display: block;
+    }
+  }
+
+
+  .likes-ikon{
+    background-image: url(../assets/img/like-icon-on.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    position: absolute;
+    left: 90%;
+    
+  }
+  @media screen and (max-width: 576px){
+    .likes-ikon{
+      background-image: url(../assets/img/like-icon-on.png);
+      background-repeat: no-repeat;
+      background-size: 50px 50px;
+      position: absolute;
+      left: 80%;
+  
+    }
+  }
+  @media screen and (max-width: 378px){
+    .likes-ikon{
+      background-image: url(../assets/img/like-icon-on.png);
+      background-repeat: no-repeat;
+      background-size: 40px 40px;
+      position: absolute;
+      left: 80%;
+  
+    }
+  }
+
+
+  .section-popular-songs_one-song-container{
+    display: flex;
+    padding: 25px;
+    align-items: center;
+  }
+  @media screen and (max-width: 378px){
+    .section-popular-songs_one-song-container{
+      display: flex;
+      padding: 15px;
+      align-items: center;
+    }
+  }
+  .section-popular-songs_one-song-container-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
+.section-popular-songs_song-name{
+  color: #f9f9f9;
+  font-family: 'Jost';
+  font-weight: 600;
+  font-size: 35px;
+}
+@media screen and (max-width: 378px){
+  .section-popular-songs_song-name{
+    color: #f9f9f9;
+    font-family: 'Jost';
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
+.section-popular-songs_artist-name{
+  color: #f9f9f9;
+  font-family: 'Jost';
+  font-weight: 300;
+  font-size: 30px;
+}
+@media screen and (max-width: 378px){
+  .section-popular-songs_artist-name{
+    color: #f9f9f9;
+    font-family: 'Jost';
+    font-weight: 300;
+    font-size: 16px;
+  }
+}
+ .footer-text{
+  color: #f9f9f9;
+  font-family: 'Jost';
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+ }
+ @media screen and (max-width: 378px){
+  .footer-text{
+    color: #f9f9f9;
+    font-family: 'Jost';
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+   }
+ }
+
+
+
+ .about_section-biography{
+  padding-top: 25px;
+ }
+ @media screen and (max-width: 576px){
+  .about_section-biography{
+    padding-top: 205px;
+   }
+ }
+ @media screen and (max-width: 378px){
+  .about_section-biography{
+    padding-top: 80px;
+   }
+ }
+ .about_main-section-text{
+  color: #f9f9f9;
+  font-family: 'Jost';
+  font-weight: 300;
+  font-size: 25px;
+  text-indent: 10%;
+  padding: 25px;
+  margin-right: 27%;
+  margin-top: 5px;
+  text-align: justify;
+}
+@media screen and (max-width: 768px){
+  .about_main-section-text{
+    color: #f9f9f9;
+    font-family: 'Jost';
+    font-weight: 300;
+    font-size: 25px;
+    text-indent: 10%;
+    padding: 25px;
+    margin-right: 37%;
+    margin-top: 5px;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 576px){
+  .about_main-section-text{
+    color: #f9f9f9;
+    font-family: 'Jost';
+    font-weight: 300;
+    font-size: 25px;
+    text-indent: 10%;
+    padding: 25px;
+    margin-top: 5px;
+    text-align: justify;
+    margin-right: 0%;
+  }
+}
+@media screen and (max-width: 378px){
+  .about_main-section-text{
+    color: #f9f9f9;
+    font-family: 'Jost';
+    font-weight: 300;
+    font-size: 18px;
+    text-indent: 10%;
+    padding: 15px;
+    margin-top: 5px;
+    text-align: justify;
+    margin-right: 0%;
+  }
+}
+.about_section-biography_image{
+  width: 900px;
+  border: 0px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 768px){
+  .about_section-biography_image{
+    width: 700px;
+    border: 0px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 576px){
+  .about_section-biography_image{
+    width: 500px;
+    border: 0px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 378px){
+  .about_section-biography_image{
+    width: 300px;
+    border: 0px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+}
+.about_section-biography_image-container{
+  display: block;
+  text-align: center;
+}
+
+
+.section-future-events-link{
+  color: #f9f9f9;
+  font-family: 'Jost';
+  font-weight: 300;
+  font-size: 25px;
+  text-indent: 10%;
+  padding: 25px;
+  text-align: justify;
+  text-decoration: none;
+  text-decoration: underline 4px #f9f9f9;
+}
+.section-future-events{
+  align-items: center;
+  justify-content: space-around;
+  margin-left: -20px;
+  margin-right: auto;
+  text-align: center;
+}
+@media screen and (max-width: 768px){
+  .section-future-events{
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -20px;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 180px;
+  }
+}
+@media screen and (max-width: 378px){
+  .section-future-events{
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -20px;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 90px;
+  }
+}
+.section-future-events_text{
+  color: #f9f9f9;
+  font-family: 'Jost';
+  font-weight: 300;
+  font-size: 25px;
+  text-indent: 10%;
+  padding: 25px;
+  text-align: justify;
+}
+@media screen and (max-width: 768px){
+  .section-future-events_text{
+    color: #f9f9f9;
+    font-family: 'Jost';
+    font-weight: 300;
+    font-size: 20px;
+    text-indent: 0%;
+    padding: 25px;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 378px){
+  .section-future-events_text{
+    color: #f9f9f9;
+    font-family: 'Jost';
+    font-weight: 300;
+    font-size: 20px;
+    text-indent: 0%;
+    padding: 25px;
+    text-align: left;
+  }
+}
+.section-concerts-gallery_image-container{
+  display: block;
+  text-align: center;
+}
+.section-concerts-gallery_image{
+  width: 900px;
+  border: 0px;
+  border-radius: 20px;
+  margin: 30px;
+}
+@media screen and (max-width: 768px){
+  .section-concerts-gallery_image{
+    width: 675px;
+    border: 0px;
+    border-radius: 20px;
+    margin: 30px;
+  }
+}
+@media screen and (max-width: 576px){
+  .section-concerts-gallery_image{
+    width: 475px;
+    border: 0px;
+    border-radius: 20px;
+    margin: 30px;
+  }
+}
+@media screen and (max-width: 378px){
+  .section-concerts-gallery_image{
+    width: 275px;
+    border: 0px;
+    border-radius: 20px;
+    margin: 30px;
+  }
+}
+
+
+.social-network-container{
+  text-align: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  height: 200px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 0px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 576px){
+  .social-network-container{
+    text-align: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    height: 125px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 0px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 378px){
+  .social-network-container{
+    text-align: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    height: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 0px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+}
+.sn-icon{
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+@media screen and (max-width: 576px){
+  .sn-icon{
+    height: 70px;
+    width: 70px;
+    margin: 30px;
+  }
+}
+@media screen and (max-width: 378px){
+  .sn-icon{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+  }
+}
+.section-cooperation-container{
+  text-align: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  height: 400px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 0px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 40px;
+}
+@media screen and (max-width: 378px){
+  .section-cooperation-container{
+    text-align: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    height: 275px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 0px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+  }
+}
+.contacts_section-title{
+  color: #0c0b0b;
+  font-family: 'Jost';
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+}
+@media screen and (max-width: 378px){
+  .contacts_section-title{
+    color: #0c0b0b;
+    font-family: 'Jost';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.contacts_main-section-text{
+  color: #0c0b0b;
+  font-family: 'Jost';
+  font-weight: 300;
+  font-size: 25px;
+  text-indent: 10%;
+  padding: 25px;
+  text-align: justify;
+  text-align: center;
+}
+@media screen and (max-width: 378px){
+  .contacts_main-section-text{
+    color: #0c0b0b;
+    font-family: 'Jost';
+    font-weight: 300;
+    font-size: 17px;
+    text-indent: 10%;
+    padding: 10px;
+    text-align: justify;
+    text-align: center;
+  }
+}
